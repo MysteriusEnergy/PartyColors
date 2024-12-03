@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0002;
+}
+
+
+/* Centrams el h1 y el p*/
+
+header , .container_p{
+    margin:50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+.container_main {
+    border: 1px dotted #000;
+    margin: 0 auto;
+    width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 20px;
+}
+
+
+/* Centramos y alineamos los circulos */
+
+.container_colors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.div_colors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Le ponemos la propiedad para que sea redondo */
+.yellow , .blue , .red {
+    background-color: #ff0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.blue {
+    background-color: #00f;
+}
+
+.red {
+    background-color: #f00;
+}
+
+
+.container_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 67px;
+}
+
+/* Estilos a los botones */
+
+.btn1 , .btn2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0002;
+    border: 2px solid #ff0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+
+
+.btn2 {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #00f;
+    cursor: pointer;
+}
