@@ -12,7 +12,6 @@
 
 ## Demo 🎥
 
-Puedes ver una demostración en vivo de la fiesta de colores aquí: [enlace a la demo si está disponible]
 
 ## Instalación 🚀
 
