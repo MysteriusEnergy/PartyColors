@@ -18,6 +18,7 @@ h1 {
     padding: 10px;
 }
 
+/* Contenedor donde va estar los colores y todo lo demás */
 .container_main {
     border: 1px dotted #000;
     margin: 0 auto;
@@ -26,6 +27,11 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 0 20px #000;
     padding: 20px;
+}
+
+.container_p {
+    color: #44da11;
+    font-weight: bold;
 }
 
 
@@ -66,9 +72,11 @@ h1 {
 
 .container_button {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
-    gap: 67px;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
 }
 
 /* Estilos a los botones */
@@ -81,6 +89,16 @@ h1 {
     border: 2px solid #ff0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn2:hover {
+    background-color: #0002;
+    color: #000;
 }
 
 
